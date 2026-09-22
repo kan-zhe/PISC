@@ -18,7 +18,7 @@ from pisc.config import DATASET_CONFIGS
 from .common import run_dataset
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(os.path.dirname(PROJECT_DIR), "data")
+DATA_DIR = os.path.join(PROJECT_DIR, "data")
 CACHE = os.path.join(DATA_DIR, "20news_embeddings.npy")
 MODEL_NAME = "all-MiniLM-L6-v2"
 SEED = 42
